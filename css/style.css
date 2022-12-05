@@ -6,15 +6,24 @@
   box-sizing: border-box;
 }
 
-/* ------ header ------ */
+/* ---------- header ---------- */
 header {
   height: 70px;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
   background: #ec715f;
 }
 
+header-area {
+  height: 100%;
+  width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 70px;
+}
 .nav-list-item {
   list-style: none;
   text-decoration: none;
@@ -25,35 +34,58 @@ header {
   font-size: 12px;
 }
 
-/* ------ main visual ------ */
+/* ---------- main visual ---------- */
 main {
   width: 100%;
 }
 
-.main-visual {
+#main-visual {
   width: 100%;
-  height: 300px;
+  height: 650px;
   position: relative;
 }
 
-.messages {
+.mv-inner {
   position: absolute;
   top: 200px;
+  left: 50%;
+  transform: translatex(-50%);
   text-align: center;
 }
 
-.messages h1 {
+.mv-title {
   color: #fafafa;
   font-size: 64px;
 }
 
-.messages p {
+.mv-text {
   margin-top: 10px;
   color: #fafafa;
   font-size: 20px;
 }
 
-/* ------ portfolio ------ */
+/* ---------- portfolio ---------- */
+#portfolio {
+  width: 100%;
+  background-color: #eceff1;
+}
+
+.pf-inner {
+  width: 920px;
+}
+
+.pf-title {
+  margin: 90px auto 8px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.pf-text {
+  margin: 30px auto;
+  font-size: 16px;
+  color: #000000;
+}
+
 .pf-images {
 
 }
@@ -82,6 +114,6 @@ main {
 
 }
 
-/* ------ feature ------ */
-/* ------ profile ------ */
-/* ------ contact ------ */
+/* ---------- feature ---------- */
+/* ---------- profile ---------- */
+/* ---------- contact ---------- */

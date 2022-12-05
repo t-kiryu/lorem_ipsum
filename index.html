@@ -9,53 +9,61 @@
 
   <body>
     <header>
-      <a href="#">
-        <img src="img/logo.png" alt="ロゴ">
-      </a>
-      <nav>
-        <ul class="nav-list">
-          <li class="nav-list-item"><a href="#">Portfolio</a></li>
-          <li class="nav-list-item"><a href="#">Feature</a></li>
-          <li class="nav-list-item"><a href="#">Profile</a></li>
-          <li class="nav-list-item"><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+      <header-area>
+        <div class="logo">
+          <a href="#">
+            <img src="img/logo.png" alt="ロゴ">
+          </a>
+        </div>
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-list-item"><a href="#">Portfolio</a></li>
+            <li class="nav-list-item"><a href="#">Feature</a></li>
+            <li class="nav-list-item"><a href="#">Profile</a></li>
+            <li class="nav-list-item"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header-area>
     </header>
 
     <main>
-      <section class="main-visual">
-        <div class="main-messages">
-          <h1>Lorem Ipsum</h1>
-          <p>simply dummy text of the printing</p>
+      <!--------------- main-visual --------------->
+      <section id="main-visual">
+        <div class="mv-inner">
+          <h1 class="mv-title">Lorem Ipsum</h1>
+          <p class="mv-text">simply dummy text of the printing</p>
         </div>
-        <img src="img/mv.png" alt="メインビジュアル">
+        <img src="img/mv.png" height="650px" width="100%" alt="メインビジュアル">
       </section>
 
-      <section class="portfolio">
-        <h1>Portfolio</h1>
-        <div class="pf-messages">
-          <p>It is a long established fact that a reader will be distracted by the readable</p>
-          <p>content of a page when looking at its layout.</p>
-          <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-        </div>
-        <div class="pf-images">
-          <div class="box-bg1"></div>
-          <div class="box-bg2"></div>
-          <div class="box-bg3"></div>
-          <div class="box-bg4"></div>
-          <div class="box-bg5"></div>
-          <div class="box-bg6"></div>
+      <!--------------- portfolio --------------->
+      <section id="portfolio">
+        <div class="pf-inner">
+          <h1 class="pf-title">Portfolio</h1>
+          <div class="pf-text">
+            <p>It is a long established fact that a reader will be distracted by the readable</p>
+            <p>content of a page when looking at its layout.</p>
+            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+          </div>
+          <div class="pf-images">
+            <div class="box-bg1"></div>
+            <div class="box-bg2"></div>
+            <div class="box-bg3"></div>
+            <div class="box-bg4"></div>
+            <div class="box-bg5"></div>
+            <div class="box-bg6"></div>
+          </div>
         </div>
       </section>
 
+      <!--------------- feature --------------->
+      <section id="feature"></section>
 
-      <section class="feature"></section>
+      <!--------------- profile --------------->
+      <section id="profile"></section>
 
-
-      <section class="profile"></section>
-
-
-      <section class="contact"></section>
+      <!--------------- contact --------------->
+      <section id="contact"></section>
     </main>
 
     <footer>
