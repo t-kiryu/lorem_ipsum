@@ -6,10 +6,12 @@
   box-sizing: border-box;
 }
 
+/* --- header --- */
 header {
   height: 70px;
   width: 100%;
   display: flex;
+  justify-content: space-between;
   background: #ec715f;
 }
 
@@ -21,4 +23,21 @@ header {
   line-height: 70px;
   color: #fafafa;
   font-size: 16px;
+}
+
+/* --- main visual --- */
+.main-visual {
+  width: 100%;
+  height: 650px;
+}
+
+.main-visual h1 {
+  margin: 200px auto 0;
+  /*color: #fafafa;*/
+  font-size: 64px;
+}
+
+.main-visual p {
+  /*color: #fafafa;*/
+  font-size: 20px;
 }
