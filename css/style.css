@@ -21,7 +21,7 @@ header {
   float: right;
   margin: 0 30px;
   line-height: 70px;
-  color: #fafafa
+  color: #fafafa;
   font-size: 12px;
 }
 
@@ -32,7 +32,7 @@ main {
 
 .main-visual {
   width: 100%;
-  height: 650px;
+  height: 300px;
   position: relative;
 }
 
@@ -54,8 +54,33 @@ main {
 }
 
 /* ------ portfolio ------ */
+.pf-images {
 
+}
 
+.box-bg1 {
+
+}
+
+.box-bg2 {
+
+}
+
+.box-bg3 {
+
+}
+
+.box-bg4 {
+
+}
+
+.box-bg5 {
+
+}
+
+.box-bg6 {
+
+}
 
 /* ------ feature ------ */
 /* ------ profile ------ */
