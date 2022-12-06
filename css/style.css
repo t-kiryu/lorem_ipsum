@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-/* ---------- header ---------- */
+/* -------- header -------- */
 header {
   height: 70px;
   width: 100%;
@@ -34,7 +34,7 @@ header-area {
   font-size: 12px;
 }
 
-/* ---------- main visual ---------- */
+/* -------- main visual -------- */
 main {
   width: 100%;
 }
@@ -64,7 +64,7 @@ main {
   font-size: 20px;
 }
 
-/* ---------- portfolio ---------- */
+/* -------- portfolio -------- */
 #portfolio {
   width: 100%;
   background-color: #eceff1;
@@ -128,6 +128,6 @@ main {
   margin-bottom: 10px;
 }
 
-/* ---------- feature ---------- */
-/* ---------- profile ---------- */
-/* ---------- contact ---------- */
+/* -------- feature -------- */
+/* -------- profile -------- */
+/* -------- contact -------- */
