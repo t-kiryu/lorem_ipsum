@@ -72,11 +72,12 @@ main {
 
 .pf-inner {
   width: 920px;
+  padding: 90px 0;
 }
 
 .pf-title {
   text-align: center;
-  margin: 90px auto 8px;
+  margin: 0px auto 8px;
   font-size: 32px;
   color: #000000;
 }
