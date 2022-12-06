@@ -75,43 +75,57 @@ main {
 }
 
 .pf-title {
+  text-align: center;
   margin: 90px auto 8px;
   font-size: 32px;
   color: #000000;
 }
 
 .pf-text {
+  text-align: center;
   margin: 30px auto;
   font-size: 16px;
   color: #000000;
 }
 
-.pf-images {
-
+.pf-wrap {
+  margin-bottom: 90px;
 }
 
-.box-bg1 {
-
+.pf-box1 {
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
 }
 
-.box-bg2 {
-
+.pf-box2 {
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
 }
 
-.box-bg3 {
-
+.pf-box3 {
+  width: 300px;
+  height: 250px;
+  margin-bottom: 10px;
 }
 
-.box-bg4 {
-
+.pf-box4 {
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
 }
 
-.box-bg5 {
-
+.pf-box5 {
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
 }
 
-.box-bg6 {
-
+.pf-box6 {
+  width: 300px;
+  height: 250px;
+  margin-bottom: 10px;
 }
 
 /* ---------- feature ---------- */
