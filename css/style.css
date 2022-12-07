@@ -186,12 +186,24 @@ main {
   color: #000000;
 }
 
-.pf-wrap {
+.str-wrap {
   display: flex;
   flex-wrap: wrap;
 }
 
-/*.ft-box1 {*/
+/*.str-icon {*/
+
+/*}*/
+
+/*.str-title {*/
+
+/*}*/
+
+/*.str-text {*/
+
+/*}*/
+
+/*.str-box1 {*/
 /*  width: 300px;*/
 /*  height: 250px;*/
 /*  background-image: url(../img/sketch.jpg);*/
@@ -200,7 +212,7 @@ main {
 /*  margin: 0 10px 10px 0;*/
 /*}*/
 
-/*.ft-box2 {*/
+/*.str-box2 {*/
 /*  width: 300px;*/
 /*  height: 250px;*/
 /*  background-image: url(../img/websuku.png);*/
@@ -209,7 +221,7 @@ main {
 /*  margin: 0 10px 10px 0;*/
 /*}*/
 
-/*.ft-box3 {*/
+/*.str-box3 {*/
 /*  width: 300px;*/
 /*  height: 250px;*/
 /*  background-image: url(../img/write.jpg);*/
