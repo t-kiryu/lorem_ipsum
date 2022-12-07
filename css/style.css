@@ -191,45 +191,30 @@ main {
   flex-wrap: wrap;
 }
 
-/*.str-icon {*/
+.str-icon {
+  text-align: center;
+  font-size: 60px;
+}
 
-/*}*/
+.str-title {
+  text-align: center;
+  margin: 10px auto;
+  font-size: 20px;
+  color: #000000;
+}
 
-/*.str-title {*/
+.str-text {
+  font-size: 16px;
+  color: #000000;
+}
 
-/*}*/
+.str-box1, .str-box2, .str-box3 {
+  width: 320px;
+}
 
-/*.str-text {*/
-
-/*}*/
-
-/*.str-box1 {*/
-/*  width: 300px;*/
-/*  height: 250px;*/
-/*  background-image: url(../img/sketch.jpg);*/
-/*  background-size: cover;*/
-/*  background-position: center;*/
-/*  margin: 0 10px 10px 0;*/
-/*}*/
-
-/*.str-box2 {*/
-/*  width: 300px;*/
-/*  height: 250px;*/
-/*  background-image: url(../img/websuku.png);*/
-/*  background-size: cover;*/
-/*  background-position: center;*/
-/*  margin: 0 10px 10px 0;*/
-/*}*/
-
-/*.str-box3 {*/
-/*  width: 300px;*/
-/*  height: 250px;*/
-/*  background-image: url(../img/write.jpg);*/
-/*  background-size: cover;*/
-/*  background-position: center;*/
-/*  margin-bottom: 10px;*/
-/*}*/
-
+.str-box2 {
+  margin: 0 10px;
+}
 
 /* -------- profile -------- */
 /* -------- contact -------- */
