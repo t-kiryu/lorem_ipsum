@@ -6,6 +6,15 @@
   box-sizing: border-box;
 }
 
+/*
+1. xxx-title => h1 で1行でまとめる
+2. xxx-border => class名をborderに変更して1行でまとめる
+3. xxx-text => class名をtextに変更して1行でまとめる
+
+
+*/
+
+
 /* -------- header -------- */
 header {
   height: 70px;
@@ -24,6 +33,7 @@ header-area {
 .logo {
   height: 70px;
 }
+
 .nav-list-item {
   list-style: none;
   text-decoration: none;
@@ -160,26 +170,26 @@ main {
   width: 100%;
 }
 
-.ft-inner {
+.str-inner {
   width: 980px;
   margin: 0 auto;
   padding: 90px 0;
 }
 
-.ft-title {
+.str-title {
   text-align: center;
   margin: 0px auto 8px;
   font-size: 32px;
   color: #000000;
 }
 
-.ft-border {
+.str-border {
   width: 70px;
   margin: auto;
   border-bottom: 3px solid #ec715f;
 }
 
-.ft-text {
+.str-text {
   text-align: center;
   margin: 30px auto;
   font-size: 16px;
@@ -196,14 +206,14 @@ main {
   font-size: 60px;
 }
 
-.str-title {
+.str-head {
   text-align: center;
   margin: 10px auto;
   font-size: 20px;
   color: #000000;
 }
 
-.str-text {
+.str-explanation {
   font-size: 16px;
   color: #000000;
 }
@@ -217,4 +227,41 @@ main {
 }
 
 /* -------- profile -------- */
+#profile {
+  width: 100%;
+}
+
+.prof-inner {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.prof-title {
+  text-align: center;
+  margin: 0px auto 8px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.prof-border {
+  width: 70px;
+  margin: auto;
+  border-bottom: 3px solid #ec715f;
+}
+
+.prof-text {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 16px;
+  color: #000000;
+}
+
+.my-image {
+  border-radius:50%;
+}
+
+.my-info {
+
+}
 /* -------- contact -------- */
