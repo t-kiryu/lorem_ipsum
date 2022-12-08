@@ -257,11 +257,38 @@ main {
   color: #000000;
 }
 
+.prof-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .my-image {
+  width: 512px;
+}
+
+.my-icon {
+  width: 250px;
+  height: 250px;
   border-radius:50%;
 }
 
-.my-info {
-
+.introduction {
+  width: 512px;
 }
+
+.name-box {
+  padding-bottom: 20px;
+}
+
+.name, .skills {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #f000000;
+}
+
+.name-text, .skills-text {
+  font-size: 16px;
+  color: #f000000;
+}
+
 /* -------- contact -------- */
