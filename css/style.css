@@ -294,7 +294,56 @@ main {
 }
 
 /* -------- contact -------- */
+.contact-inner {
+  width: 800px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
 
+.contact-title {
+  text-align: center;
+  margin: 0px auto 8px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.contact-border {
+  width: 70px;
+  margin: auto;
+  border-bottom: 3px solid #ec715f;
+}
+
+.contact-text {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 16px;
+  color: #000000;
+}
+
+.contact-method {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.method-1, .method-2 {
+  width: 400px;
+}
+
+.mail, .tel, .sns {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.mail-text, .tel-text {
+  text-decoration: underline;
+}
+
+.sns-icon {
+  float: left;
+  padding: 5px 20px 0 0;
+  font-size: 50px;
+}
 
 /* -------- footer -------- */
 .footer {
