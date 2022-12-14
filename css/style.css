@@ -7,9 +7,9 @@
 }
 
 /*
-1. xxx-title => h1 で1行でまとめる
-2. xxx-border => class名をborderに変更して1行でまとめる
-3. xxx-text => class名をtextに変更して1行でまとめる
+1. xxx-title => class名をsection-title で1行でまとめる
+2. xxx-border => class名をsection-title-borderに変更して1行でまとめる
+3. xxx-text => class名をsection-textに変更して1行でまとめる
 4. navでリンク先が反対に表示される
 5. navで文字が白くならない
 6. navでリンクのアンダーバーがとれない
@@ -266,6 +266,7 @@ main {
 
 .my-image {
   width: 512px;
+  text-align: center;
 }
 
 .my-icon {
@@ -324,18 +325,24 @@ main {
   width: 800px;
   display: flex;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 .method-1, .method-2 {
   width: 400px;
+  margin: auto;
 }
 
-.mail, .tel, .sns {
+.mail-area, .tel-area, .sns-area {
+  margin: auto;
+}
+
+.method-title {
   margin-bottom: 5px;
   font-size: 20px;
 }
 
-.mail-text, .tel-text {
+.method-text {
   text-decoration: underline;
 }
 
