@@ -325,16 +325,16 @@ main {
   width: 800px;
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
+  /*margin: auto;*/
 }
 
 .method-1, .method-2 {
   width: 400px;
-  margin: auto;
+  /*margin: auto;*/
 }
 
 .mail-area, .tel-area, .sns-area {
-  margin: auto;
+  /*margin: auto;*/
 }
 
 .method-title {
@@ -361,4 +361,9 @@ main {
   line-height: 60px;
   font-size: 16px;
   color: #fafafa;
+}
+
+/* -------- media queries -------- */
+@media screen and (max-width: 767px) {
+  
 }
