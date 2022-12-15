@@ -16,6 +16,26 @@
 
 */
 
+/* -------- common property -------- */
+.pf-title, .strength-title, .prof-title, .contact-title {
+  text-align: center;
+  margin: 0px auto 8px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.pf-border, .strength-border, .prof-title, .contact-title {
+  width: 70px;
+  margin: auto;
+  border-bottom: 3px solid #ec715f;
+}
+
+.-text, .-text, .-text, .-text,  {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 16px;
+  color: #000000;
+}
 
 /* -------- header -------- */
 header {
@@ -88,18 +108,18 @@ main {
   padding: 90px 0;
 }
 
-.pf-title {
-  text-align: center;
-  margin: 0px auto 8px;
-  font-size: 32px;
-  color: #000000;
-}
+/*.pf-title {*/
+/*  text-align: center;*/
+/*  margin: 0px auto 8px;*/
+/*  font-size: 32px;*/
+/*  color: #000000;*/
+/*}*/
 
-.pf-border {
-  width: 70px;
-  margin: auto;
-  border-bottom: 3px solid #ec715f;
-}
+/*.pf-border {*/
+/*  width: 70px;*/
+/*  margin: auto;*/
+/*  border-bottom: 3px solid #ec715f;*/
+/*}*/
 
 .pf-text {
   text-align: center;
@@ -172,55 +192,55 @@ main {
   width: 100%;
 }
 
-.str-inner {
+.strength-inner {
   width: 980px;
   margin: 0 auto;
   padding: 90px 0;
 }
 
-.str-title {
-  text-align: center;
-  margin: 0px auto 8px;
-  font-size: 32px;
-  color: #000000;
-}
+/*.strength-title {*/
+/*  text-align: center;*/
+/*  margin: 0px auto 8px;*/
+/*  font-size: 32px;*/
+/*  color: #000000;*/
+/*}*/
 
-.str-border {
-  width: 70px;
-  margin: auto;
-  border-bottom: 3px solid #ec715f;
-}
+/*.strength-border {*/
+/*  width: 70px;*/
+/*  margin: auto;*/
+/*  border-bottom: 3px solid #ec715f;*/
+/*}*/
 
-.str-text {
+.strength-text {
   text-align: center;
   margin: 30px auto;
   font-size: 16px;
   color: #000000;
 }
 
-.str-wrap {
+.strength-wrap {
   display: flex;
   flex-wrap: wrap;
 }
 
-.str-icon {
+.strength-icon {
   text-align: center;
   font-size: 60px;
 }
 
-.str-head {
+.strength-head {
   text-align: center;
   margin: 10px auto;
   font-size: 20px;
   color: #000000;
 }
 
-.str-explanation {
+.strength-explanation {
   font-size: 16px;
   color: #000000;
 }
 
-.str-box1, .str-box2, .str-box3 {
+.strength-box1, .strength-box2, .strength-box3 {
   width: 320px;
 }
 
@@ -239,18 +259,18 @@ main {
   padding: 90px 0;
 }
 
-.prof-title {
-  text-align: center;
-  margin: 0px auto 8px;
-  font-size: 32px;
-  color: #000000;
-}
+/*.prof-title {*/
+/*  text-align: center;*/
+/*  margin: 0px auto 8px;*/
+/*  font-size: 32px;*/
+/*  color: #000000;*/
+/*}*/
 
-.prof-border {
-  width: 70px;
-  margin: auto;
-  border-bottom: 3px solid #ec715f;
-}
+/*.prof-border {*/
+/*  width: 70px;*/
+/*  margin: auto;*/
+/*  border-bottom: 3px solid #ec715f;*/
+/*}*/
 
 .prof-text {
   text-align: center;
@@ -301,18 +321,18 @@ main {
   padding: 90px 0;
 }
 
-.contact-title {
-  text-align: center;
-  margin: 0px auto 8px;
-  font-size: 32px;
-  color: #000000;
-}
+/*.contact-title {*/
+/*  text-align: center;*/
+/*  margin: 0px auto 8px;*/
+/*  font-size: 32px;*/
+/*  color: #000000;*/
+/*}*/
 
-.contact-border {
-  width: 70px;
-  margin: auto;
-  border-bottom: 3px solid #ec715f;
-}
+/*.contact-border {*/
+/*  width: 70px;*/
+/*  margin: auto;*/
+/*  border-bottom: 3px solid #ec715f;*/
+/*}*/
 
 .contact-text {
   text-align: center;
@@ -365,5 +385,5 @@ main {
 
 /* -------- media queries -------- */
 @media screen and (max-width: 767px) {
-  
+
 }
