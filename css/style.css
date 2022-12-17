@@ -262,24 +262,25 @@ main {
   width: 800px;
   display: flex;
   flex-wrap: wrap;
+  /*justify-content: center;*/
   /*margin: auto;*/
 }
 
 .method-1, .method-2 {
   width: 400px;
-  /*margin: auto;*/
+  margin: auto;
 }
 
 .mail-area, .tel-area, .sns-area {
   /*margin: auto;*/
 }
 
-.method-title {
+.area-title {
   margin-bottom: 5px;
   font-size: 20px;
 }
 
-.method-text {
+.area-text {
   text-decoration: underline;
 }
 
