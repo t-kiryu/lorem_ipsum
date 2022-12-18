@@ -6,13 +6,6 @@
   box-sizing: border-box;
 }
 
-/*
-- navでリンク先が反対に表示される
-- navで文字が白くならない
-- navでリンクのアンダーバーがとれない
-
-*/
-
 /* -------- common property -------- */
 .pf-title, .strength-title, .prof-title, .contact-title {
   text-align: center;
@@ -42,10 +35,10 @@ header {
 }
 
 .header-area {
-  height: 100%;
-  width: 1024px;
   display: flex;
   justify-content: space-between;
+  height: 100%;
+  width: 1024px;
   margin: 0 auto;
 }
 
@@ -55,12 +48,20 @@ header {
 
 .nav-list-item {
   list-style: none;
-  text-decoration: none;
-  float: right;
+  float: left;
   margin: 0 30px;
   line-height: 70px;
-  color: #fafafa;
   font-size: 12px;
+}
+
+.nav-list-item > a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.nav-list-item > a:hover {
+  text-decoration: underline;
+  color: blue;
 }
 
 /* -------- main visual -------- */
@@ -110,57 +111,40 @@ main {
   flex-wrap: wrap;
 }
 
-.pf-item1 {
+.pf-item1, .pf-item2, .pf-item3, .pf-item4, .pf-item5, .pf-item6 {
   width: 300px;
   height: 250px;
-  background-image: url(../img/sketch.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.pf-item1 {
+  background-image: url(../img/sketch.jpg);
   margin: 0 10px 10px 0;
 }
 
 .pf-item2 {
-  width: 300px;
-  height: 250px;
   background-image: url(../img/websuku.png);
-  background-size: cover;
-  background-position: center;
   margin: 0 10px 10px 0;
 }
 
 .pf-item3 {
-  width: 300px;
-  height: 250px;
   background-image: url(../img/write.jpg);
-  background-size: cover;
-  background-position: center;
   margin-bottom: 10px;
 }
 
 .pf-item4 {
-  width: 300px;
-  height: 250px;
   background-image: url(../img/webcamp.png);
-  background-size: cover;
-  background-position: center;
   margin: 0 10px 10px 0;
 }
 
 .pf-item5 {
-  width: 300px;
-  height: 250px;
   background-image: url(../img/talk.jpg);
-  background-size: cover;
-  background-position: center;
   margin: 0 10px 10px 0;
 }
 
 .pf-item6 {
-  width: 300px;
-  height: 250px;
   background-image: url(../img/webcamp-mother.png);
-  background-size: cover;
-  background-position: center;
   margin-bottom: 10px;
 }
 
