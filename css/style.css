@@ -7,6 +7,10 @@
 }
 
 /* -------- common property -------- */
+.container {
+  width: 100%;
+}
+
 .pf-title, .strength-title, .prof-title, .contact-title {
   text-align: center;
   margin: 0px auto 8px;
@@ -92,6 +96,14 @@ main {
   margin-top: 10px;
   color: #fafafa;
   font-size: 20px;
+}
+
+.mv-image {
+  width: 100%;
+  height: 650px;
+  background-image: url(../img/mv.png);
+  background-size: cover;
+  background-position: center;
 }
 
 /* -------- portfolio -------- */
@@ -255,10 +267,6 @@ main {
   margin: auto;
 }
 
-.mail-area, .tel-area, .sns-area {
-  /*margin: auto;*/
-}
-
 .area-title {
   margin-bottom: 5px;
   font-size: 20px;
@@ -287,5 +295,69 @@ main {
 
 /* -------- media queries -------- */
 @media screen and (max-width: 767px) {
+  .container{
+    width: 90%;
+  }
+
+  header {
+    height: 50px;
+    width: 100%;
+    /*background: #ec715f;*/
+  }
+
+  .header-area {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*height: 100%;*/
+    width: 90%;
+    /*margin: 0 auto;*/
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  /*main {*/
+  /*  width: 100%;*/
+  /*}*/
+
+  /*#main-visual {*/
+  /*  width: 100%;*/
+  /*  height: 650px;*/
+  /*  position: relative;*/
+  /*}*/
+
+  /*.mv-wrap {*/
+  /*  position: absolute;*/
+  /*  top: 200px;*/
+  /*  left: 50%;*/
+  /*  transform: translatex(-50%);*/
+  /*  text-align: center;*/
+  /*}*/
+
+  /*.mv-title {*/
+  /*  color: #fafafa;*/
+  /*  font-size: 64px;*/
+  /*}*/
+
+  /*.mv-text {*/
+  /*  margin-top: 10px;*/
+  /*  color: #fafafa;*/
+  /*  font-size: 20px;*/
+  /*}*/
+
+  .mv-image {
+    width: 90%;
+    height: 650px;
+    background-image: url(../img/code.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+
+
+
+
+
 
 }
