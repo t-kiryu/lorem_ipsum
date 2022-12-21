@@ -275,7 +275,7 @@ main {
   text-decoration: underline;
 }
 
-.sns-icon {
+i {
   float: left;
   padding: 5px 20px 0 0;
   font-size: 50px;
@@ -378,30 +378,11 @@ main {
 
   .strength-wrap {
     width: 90%;
-    margin: 0 auto;
-    padding: 90px 0;
   }
 
   .strength-inner {
     display: flex;
     justify-content: center;
-  }
-
-  .strength-icon {
-    text-align: center;
-    font-size: 60px;
-  }
-
-  .strength-head {
-    text-align: center;
-    margin: 10px auto;
-    font-size: 20px;
-    color: #000000;
-  }
-
-  .strength-detail {
-    font-size: 16px;
-    color: #000000;
   }
 
   .strength-content1, .strength-content2, .strength-content3 {
@@ -427,11 +408,15 @@ main {
   }
 
   .introduction {
-    width: 45%;
+    width: 90%;
   }
 
   .name-box {
     padding-bottom: 20px;
+  }
+
+  .name, .name-text, .skills, .skills-text {
+    text-align: center;
   }
 
 /* ---- media screen Contact ---- */
@@ -439,34 +424,26 @@ main {
     width: 90%;
   }
 
-  /*.contact-method {*/
-  /*  width: 800px;*/
-  /*  display: flex;*/
-  /*  flex-wrap: wrap;*/
-  /*  margin: auto;*/
-  /*}*/
+  .contact-method {
+    width: 90%;
+    text-align: center;
+  }
 
-  /*.method-1, .method-2 {*/
-  /*  width: 400px;*/
-  /*  margin: auto;*/
-  /*}*/
+  .method-1, .method-2 {
+    width: 90%;
+  }
 
-  /*.area-title {*/
-  /*  margin-bottom: 5px;*/
-  /*  font-size: 20px;*/
-  /*}*/
+  .area-title {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
 
-  /*.area-text {*/
-  /*  text-decoration: underline;*/
-  /*}*/
+  .area-text {
+    text-decoration: underline;
+  }
 
-  /*.sns-icon {*/
-  /*  float: left;*/
-  /*  padding: 5px 20px 0 0;*/
-  /*  font-size: 50px;*/
-  /*}*/
-
-
-
-
+  .sns-icon {
+    display: inline-block;
+    text-align: center;
+  }
 }
