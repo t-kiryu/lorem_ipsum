@@ -13,12 +13,15 @@
   font-size: 32px;
   color: #000000;
 }
+/* ↑　section-title　に変更しクラス名統一 */
+
 
 .pf-border, .strength-border, .prof-border, .contact-border {
   width: 70px;
   margin: auto;
   border-bottom: 3px solid #ec715f;
 }
+/*　↑　削除して section-title::afterで記述*/
 
 .pf-text, .strength-text, .prof-text, .contact-text {
   text-align: center;
@@ -26,7 +29,9 @@
   font-size: 16px;
   color: #000000;
 }
+/* ↑　section-text　に変更しクラス名統一 */
 
+/* .container のcss設定 */
 /* -------- header -------- */
 header {
   width: 100%;
@@ -102,7 +107,7 @@ header {
   padding: 90px 0;
 }
 
-.pf-items {
+.pf-production-group {
   display: flex;
   flex-wrap: wrap;
 }
