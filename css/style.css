@@ -7,10 +7,6 @@
 }
 
 /* -------- common property -------- */
-.container {
-  width: 100%;
-}
-
 .pf-title, .strength-title, .prof-title, .contact-title {
   text-align: center;
   margin: 0px auto 8px;
@@ -33,16 +29,16 @@
 
 /* -------- header -------- */
 header {
-  height: 70px;
   width: 100%;
+  height: 70px;
   background: #ec715f;
 }
 
-.header-area {
+.header-group {
   display: flex;
   justify-content: space-between;
-  height: 100%;
   width: 1024px;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -55,7 +51,7 @@ header {
   float: left;
   margin: 0 30px;
   line-height: 70px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .nav-list-item > a {
@@ -69,41 +65,29 @@ header {
 }
 
 /* -------- main visual -------- */
-main {
-  width: 100%;
-}
-
 #main-visual {
   width: 100%;
   height: 650px;
-  position: relative;
+  text-align: center;
+  color: #fafafa;
+  background-image: url(../img/mv.png);
+  background-size: cover;
+  background-position: center;
 }
 
-.mv-wrap {
-  position: absolute;
-  top: 200px;
-  left: 50%;
-  transform: translatex(-50%);
-  text-align: center;
+.mv-container {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .mv-title {
-  color: #fafafa;
+  padding-top: 200px;
   font-size: 64px;
 }
 
 .mv-text {
   margin-top: 10px;
-  color: #fafafa;
   font-size: 20px;
-}
-
-.mv-image {
-  width: 100%;
-  height: 650px;
-  background-image: url(../img/mv.png);
-  background-size: cover;
-  background-position: center;
 }
 
 /* -------- portfolio -------- */
@@ -112,7 +96,7 @@ main {
   background-color: #eceff1;
 }
 
-.pf-wrap {
+.pf-container {
   width: 920px;
   margin: 0 auto;
   padding: 90px 0;
@@ -294,11 +278,7 @@ i {
 
 /* -------- media screen -------- */
 @media screen and (max-width: 767px) {
-  .container{
-    width: 90%;
-  }
-
-/* ---- media screen Header ---- */
+ /* ---- media screen Header ---- */
   header {
     height: 50px;
     width: 90%;
