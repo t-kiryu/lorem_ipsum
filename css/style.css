@@ -6,32 +6,30 @@
   box-sizing: border-box;
 }
 
-/* -------- common property -------- */
-.pf-title, .strength-title, .prof-title, .contact-title {
+/* -------- <main> common property -------- */
+.section-title {
   text-align: center;
   margin: 0px auto 8px;
   font-size: 32px;
   color: #000000;
 }
-/* ↑　section-title　に変更しクラス名統一 */
 
-
-.pf-border, .strength-border, .prof-border, .contact-border {
+.section-title::after {
+  content: "";
+  display: block;
   width: 70px;
-  margin: auto;
-  border-bottom: 3px solid #ec715f;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #ec715f;
 }
-/*　↑　削除して section-title::afterで記述*/
 
-.pf-text, .strength-text, .prof-text, .contact-text {
+.section-text {
   text-align: center;
   margin: 30px auto;
   font-size: 16px;
   color: #000000;
 }
-/* ↑　section-text　に変更しクラス名統一 */
 
-/* .container のcss設定 */
 /* -------- header -------- */
 header {
   width: 100%;
@@ -59,12 +57,12 @@ header {
   font-size: 16px;
 }
 
-.nav-list-item > a {
+.nav-list-item a {
   text-decoration: none;
   color: #fafafa;
 }
 
-.nav-list-item > a:hover {
+.nav-list-item a:hover {
   text-decoration: underline;
   color: blue;
 }
@@ -101,7 +99,7 @@ header {
   background-color: #eceff1;
 }
 
-.pf-container {
+.container {
   width: 920px;
   margin: 0 auto;
   padding: 90px 0;
@@ -112,39 +110,39 @@ header {
   flex-wrap: wrap;
 }
 
-.pf-item1, .pf-item2, .pf-item3, .pf-item4, .pf-item5, .pf-item6 {
+.production1, .production2, .production3, .production4, .production5, .production6 {
   width: 300px;
   height: 250px;
   background-size: cover;
   background-position: center;
 }
 
-.pf-item1 {
+.production1 {
   background-image: url(../img/sketch.jpg);
   margin: 0 10px 10px 0;
 }
 
-.pf-item2 {
+.production2 {
   background-image: url(../img/websuku.png);
   margin: 0 10px 10px 0;
 }
 
-.pf-item3 {
+.production3 {
   background-image: url(../img/write.jpg);
   margin-bottom: 10px;
 }
 
-.pf-item4 {
+.production4 {
   background-image: url(../img/webcamp.png);
   margin: 0 10px 10px 0;
 }
 
-.pf-item5 {
+.production5 {
   background-image: url(../img/talk.jpg);
   margin: 0 10px 10px 0;
 }
 
-.pf-item6 {
+.production6 {
   background-image: url(../img/webcamp-mother.png);
   margin-bottom: 10px;
 }
@@ -154,13 +152,13 @@ header {
   width: 100%;
 }
 
-.strength-wrap {
+.container {
   width: 980px;
   margin: 0 auto;
   padding: 90px 0;
 }
 
-.strength-inner {
+.strength-group {
   display: flex;
   flex-wrap: wrap;
 }
@@ -170,24 +168,20 @@ header {
   font-size: 60px;
 }
 
-.strength-head {
+.strength-title {
   text-align: center;
   margin: 10px auto;
   font-size: 20px;
   color: #000000;
 }
 
-.strength-detail {
+.strength-text {
   font-size: 16px;
   color: #000000;
 }
 
-.strength-content1, .strength-content2, .strength-content3 {
+.strength1, .strength2, .strength3 {
   width: 320px;
-}
-
-.str-box2 {
-  margin: 0 10px;
 }
 
 /* -------- profile -------- */
@@ -195,76 +189,80 @@ header {
   width: 100%;
 }
 
-.prof-wrap {
+.container {
   width: 1024px;
   margin: 0 auto;
   padding: 90px 0;
 }
 
-.prof-inner {
+.prof-group {
   display: flex;
   flex-wrap: wrap;
 }
 
-.my-image {
+.prof-left-area {
   width: 512px;
-  text-align: center;
 }
 
-.my-icon {
+.my-image {
   width: 250px;
   height: 250px;
+  margin: 0 auto;
   border-radius:50%;
+  background-image: url(../img/my-icon.jpg);
 }
 
-.introduction {
+.prof-right-area {
   width: 512px;
 }
 
-.name-box {
-  padding-bottom: 20px;
-}
+/*.name-box {*/
+/*  padding-bottom: 20px;*/
+/*}*/
 
-.name, .skills {
+.content-title {
   margin-bottom: 5px;
   font-size: 20px;
   color: #f000000;
 }
 
-.name-text, .skills-text {
+.content-text {
   font-size: 16px;
   color: #f000000;
 }
 
 /* -------- contact -------- */
-.contact-wrap {
+#contact {
+  width: 100%;
+}
+
+.container {
   width: 800px;
   margin: 0 auto;
-  padding: 90px 0;
 }
 
-.contact-method {
-  width: 800px;
+.contact-group {
   display: flex;
-  flex-wrap: wrap;
-  margin: auto;
+  width: 800px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
 }
 
-.method-1, .method-2 {
+.contact-left-area, .contact-right-area {
   width: 400px;
-  margin: auto;
+  margin: 0 auto;
 }
 
-.area-title {
+.contact-title {
   margin-bottom: 5px;
   font-size: 20px;
 }
 
-.area-text {
+.contact-text {
   text-decoration: underline;
 }
 
-i {
+.sns-icon {
   float: left;
   padding: 5px 20px 0 0;
   font-size: 50px;
@@ -321,37 +319,37 @@ i {
     width: 90%;
   }
 
-  .pf-items {
+  .productions {
     display: flex;
     justify-content: center;
   }
 
-  .pf-item1 {
+  .production1 {
     background-image: url(../img/sketch.jpg);
     margin: 0 10px 10px 0;
   }
 
-  .pf-item2 {
+  .production2 {
     background-image: url(../img/websuku.png);
     margin: 0 10px 10px 0;
   }
 
-  .pf-item3 {
+  .production3 {
     background-image: url(../img/write.jpg);
     margin-bottom: 10px;
   }
 
-  .pf-item4 {
+  .production4 {
     background-image: url(../img/webcamp.png);
     margin: 0 10px 10px 0;
   }
 
-  .pf-item5 {
+  .production5 {
     background-image: url(../img/talk.jpg);
     margin: 0 10px 10px 0;
   }
 
-  .pf-item6 {
+  .production6 {
     background-image: url(../img/webcamp-mother.png);
     margin-bottom: 10px;
   }
