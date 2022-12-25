@@ -1,17 +1,26 @@
 @charset "UTF-8";
 
+/*-------- base styling --------*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* -------- <main> common property -------- */
-.section-title {
-  text-align: center;
-  margin: 0px auto 8px;
-  font-size: 32px;
+main {
   color: #000000;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/*-------- reusable class --------*/
+.section-title {
+  padding-top: 90px;
+  text-align: center;
+  font-size: 32px;
 }
 
 .section-title::after {
@@ -19,18 +28,17 @@
   display: block;
   width: 70px;
   height: 3px;
-  margin: 8px auto 0 auto;
+  margin: 8px auto 0;
   background-color: #ec715f;
 }
 
 .section-text {
   text-align: center;
-  margin: 30px auto;
+  margin: 30px auto 0;
   font-size: 16px;
-  color: #000000;
 }
 
-/* -------- header -------- */
+/*-------- header --------*/
 header {
   width: 100%;
   height: 70px;
@@ -78,11 +86,6 @@ header {
   background-position: center;
 }
 
-.mv-container {
-  width: 100%;
-  margin: 0 auto;
-}
-
 .mv-title {
   padding-top: 200px;
   font-size: 64px;
@@ -95,72 +98,73 @@ header {
 
 /* -------- portfolio -------- */
 #portfolio {
-  width: 100%;
   background-color: #eceff1;
-}
-
-.container {
-  width: 920px;
-  margin: 0 auto;
-  padding: 90px 0;
 }
 
 .pf-production-group {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  width: 920px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
 }
 
-.production1, .production2, .production3, .production4, .production5, .production6 {
+.production {
   width: 300px;
   height: 250px;
+  margin: 10px 10px 0 0;
   background-size: cover;
   background-position: center;
 }
 
-.production1 {
+.production:nth-child(3n) {
+  margin-right: 0;
+}
+
+.production:nth-child(-n+3) {
+  margin-top: 0;
+}
+
+.bg-1 {
   background-image: url(../img/sketch.jpg);
-  margin: 0 10px 10px 0;
 }
 
-.production2 {
+.bg-2 {
   background-image: url(../img/websuku.png);
-  margin: 0 10px 10px 0;
 }
 
-.production3 {
+.bg-3 {
   background-image: url(../img/write.jpg);
-  margin-bottom: 10px;
 }
 
-.production4 {
+.bg-4 {
   background-image: url(../img/webcamp.png);
-  margin: 0 10px 10px 0;
 }
 
-.production5 {
+.bg-5 {
   background-image: url(../img/talk.jpg);
-  margin: 0 10px 10px 0;
 }
 
-.production6 {
+.bg-6 {
   background-image: url(../img/webcamp-mother.png);
-  margin-bottom: 10px;
 }
 
 /* -------- feature -------- */
-#feature {
-  width: 100%;
-}
-
-.container {
-  width: 980px;
-  margin: 0 auto;
-  padding: 90px 0;
-}
-
 .strength-group {
   display: flex;
   flex-wrap: wrap;
+  width: 980px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.strength {
+  width: 320px;
+  margin-rigth: 10px
+}
+
+.strength:nth-child(3n) {
+  margin-right: 0;
 }
 
 .strength-icon {
@@ -172,32 +176,18 @@ header {
   text-align: center;
   margin: 10px auto;
   font-size: 20px;
-  color: #000000;
 }
 
 .strength-text {
   font-size: 16px;
-  color: #000000;
-}
-
-.strength1, .strength2, .strength3 {
-  width: 320px;
 }
 
 /* -------- profile -------- */
-#profile {
-  width: 100%;
-}
-
-.container {
-  width: 1024px;
-  margin: 0 auto;
-  padding: 90px 0;
-}
-
 .prof-group {
   display: flex;
   flex-wrap: wrap;
+  width: 1024px;
+  padding: 30px 0 90px 0;
 }
 
 .prof-left-area {
@@ -216,31 +206,20 @@ header {
   width: 512px;
 }
 
-/*.name-box {*/
-/*  padding-bottom: 20px;*/
-/*}*/
-
 .content-title {
-  margin-bottom: 5px;
+  margin: 20px 0 5px 0;
   font-size: 20px;
-  color: #f000000;
+}
+
+.content-title:first-child {
+  margin-top: 0px;
 }
 
 .content-text {
   font-size: 16px;
-  color: #f000000;
 }
 
 /* -------- contact -------- */
-#contact {
-  width: 100%;
-}
-
-.container {
-  width: 800px;
-  margin: 0 auto;
-}
-
 .contact-group {
   display: flex;
   width: 800px;
