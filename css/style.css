@@ -326,6 +326,7 @@ header {
 
 /* -------- Feature -------- */
   .strength-group {
+    text-align: center;
     width: 320px;
   }
 
@@ -344,13 +345,22 @@ header {
     margin: 0 auto;
   }
 
+  .prof-left-area {
+    width: 100%;
+  }
+
   .my-image {
     margin-bottom: 20px;
   }
 
   .prof-right-area {
     text-align: center;
+    width: 100%;
     margin: 0 auto;
+  }
+
+  .content-text {
+    text-align: center;
   }
 
 /* -------- Contact -------- */
@@ -363,7 +373,7 @@ header {
   .right-area-content {
     margin-top: 20px;
   }
-  
+
   .content-icon {
     float: left;
     margin: 0px 20px 0 0;
