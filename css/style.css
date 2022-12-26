@@ -159,6 +159,7 @@ header {
 }
 
 .strength {
+  text-align: center;
   width: 320px;
   margin-right: 10px;
 }
@@ -184,6 +185,10 @@ header {
 }
 
 /* -------- profile -------- */
+#profile {
+  background-color: #eceff1;
+}
+
 .prof-group {
   display: flex;
   flex-wrap: wrap;
@@ -259,6 +264,10 @@ header {
   float: left;
   margin: 0px 20px 0 0;
   font-size: 50px;
+}
+
+.content-icon:last-child {
+  margin-right: 0;
 }
 
 /* -------- footer -------- */
@@ -340,23 +349,21 @@ header {
   }
 
   .prof-right-area {
+    text-align: center;
     margin: 0 auto;
   }
 
 /* -------- Contact -------- */
   .contact-group {
+    flex-wrap: wrap;
     width: 400px;
+    text-align: center;
   }
 
-  .content-title {
-    margin: 20px auto 5px;
-    font-size: 20px;
+  .right-area-content {
+    margin-top: 20px;
   }
-
-  .content-title:first-child {
-    margin-top: 0;
-  }
-
+  
   .content-icon {
     float: left;
     margin: 0px 20px 0 0;
