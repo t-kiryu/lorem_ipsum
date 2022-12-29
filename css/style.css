@@ -309,7 +309,7 @@ header {
     font-size: 18px;
   }
 
-/*-------- Portfolio --------*/
+  /*-------- Portfolio --------*/
   .pf-production-group {
     width: 300px;
   }
@@ -324,9 +324,8 @@ header {
     display: none;
   }
 
-/* -------- Feature -------- */
+  /* -------- Feature -------- */
   .strength-group {
-    text-align: center;
     width: 320px;
   }
 
@@ -339,9 +338,10 @@ header {
     margin-top: 0;
   }
 
-/* -------- Profile -------- */
+  /* -------- Profile -------- */
   .prof-group {
-    width: 512px;
+    /*width: 512px;*/
+    width: 50%;
     margin: 0 auto;
   }
 
@@ -363,11 +363,17 @@ header {
     text-align: center;
   }
 
-/* -------- Contact -------- */
+  /* -------- Contact -------- */
   .contact-group {
     flex-wrap: wrap;
-    width: 400px;
+    /*width: 400px;*/
+    width: 50%;
     text-align: center;
+  }
+
+  .contact-left-area, .contact-right-area {
+    width: 400px;
+    /*width: 50%;*/
   }
 
   .right-area-content {
