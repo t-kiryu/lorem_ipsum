@@ -197,7 +197,7 @@ header {
 }
 
 .prof-left-area {
-  width: 512px;
+  width: 50%;
 }
 
 .my-image {
@@ -209,7 +209,7 @@ header {
 }
 
 .prof-right-area {
-  width: 512px;
+  width: 50%;
 }
 
 .content-title {
