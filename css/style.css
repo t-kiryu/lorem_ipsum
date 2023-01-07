@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*-------- base styling --------*/
+/*---- base styling ----*/
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@ main {
   margin: 0 auto;
 }
 
-/*-------- reusable class --------*/
+/*---- reusable class ---*/
 .section-title {
   padding-top: 90px;
   text-align: center;
@@ -38,7 +38,7 @@ main {
   font-size: 16px;
 }
 
-/*-------- header --------*/
+/*---- header ----*/
 header {
   width: 100%;
   height: 70px;
@@ -75,7 +75,7 @@ header {
   color: blue;
 }
 
-/* -------- main visual -------- */
+/* ---- main visual ---- */
 #main-visual {
   width: 100%;
   height: 650px;
@@ -96,7 +96,7 @@ header {
   font-size: 20px;
 }
 
-/* -------- portfolio -------- */
+/* ---- portfolio ---- */
 #portfolio {
   background-color: #eceff1;
 }
@@ -149,7 +149,7 @@ header {
   background-image: url(../img/webcamp-mother.png);
 }
 
-/* -------- feature -------- */
+/* ---- feature ---- */
 .strength-group {
   display: flex;
   flex-wrap: wrap;
@@ -184,7 +184,7 @@ header {
   font-size: 16px;
 }
 
-/* -------- profile -------- */
+/* ---- profile ---- */
 #profile {
   background-color: #eceff1;
 }
@@ -225,7 +225,7 @@ header {
   font-size: 16px;
 }
 
-/* -------- contact -------- */
+/* ---- contact ---- */
 .contact-group {
   display: flex;
   width: 800px;
@@ -234,7 +234,7 @@ header {
 }
 
 .contact-left-area, .contact-right-area {
-  width: 400px;
+  width: 50%;
 }
 
 .left-area-content {
@@ -270,7 +270,7 @@ header {
   margin-right: 0;
 }
 
-/* -------- footer -------- */
+/* ---- footer ---- */
 .footer {
   width: 100%;
   height: 60px;
