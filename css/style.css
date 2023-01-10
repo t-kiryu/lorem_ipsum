@@ -373,8 +373,8 @@ header {
   }
 
   .contact-left-area, .contact-right-area {
-    width: 400px;
-    /*width: 50%;*/
+    /*width: 400px;*/
+    width: 50%;
   }
 
   .right-area-content {
